@@ -112,7 +112,11 @@ data = pd.DataFrame({
     "Political Affiliation": affiliations
 })
 
-# Save the DataFrame to an Excel file
+# Save the DataFrame to an Excel file (with duplicate rows)
 data.to_excel("uk_prime_ministers.xlsx", index=False)
 
-print("Data has been saved to uk_prime_ministers.xlsx")
+# Save the deduplicated data to an Excel file (without duplicate rows)
+deduplicated_data = data.drop_duplicates()
+deduplicated_data.to_excel("uk_prime_ministers_deduplicated.xlsx", index=False)
+
+print("Data has been saved to uk_prime_ministers.xlsx and uk_prime_ministers_deduplicated.xlsx")
