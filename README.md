@@ -39,7 +39,9 @@ This repository contains solutions to a skills assessment test involving Python,
 #### Exercise 6: Web Scraping UK Prime Ministers
 - **File:** `Exercise6.py`
 - **Description:** A Python program using `requests`, `BeautifulSoup`, and `pandas` to scrape a list of UK Prime Ministers, their birthdates, and political affiliations from the Britannica website.
-- **Output:** The data is saved in an Excel file (`uk_prime_ministers.xlsx`). 
+- **Output:** The data is saved in two Excel files: 
+    1. `uk_prime_ministers.xlsx`: Contains the scraped data with duplicate rows.
+    2. `uk_prime_ministers_deduplicated.xlsx`: Contains the scraped data without duplicate rows.
 - **Note:** Some entries in the "Date of Birth" column on the source website include only the year (e.g., "1696") or an incomplete date with uncertainty (e.g., "1673?"). These entries were left blank in the Excel file because they could not be transformed into the required date format (dd.mm.yyyy). This ensures data consistency and avoids misleading transformations.
 
 ### Files in the Repository:
@@ -49,7 +51,8 @@ This repository contains solutions to a skills assessment test involving Python,
 - **`Exercise3_Schema_and_SampleData.sql`**: SQL schema and sample data for the sales database (for Exercise 3).
 - **`Exercise6.py`**: Web scraping solution to extract UK Prime Ministers' data.
 - **`grades.txt`**: Input file containing student names and grades (for Exercise 2).
-- **`uk_prime_ministers.xlsx`**: Output Excel file containing the scraped UK Prime Ministers' data.
+- **`uk_prime_ministers.xlsx`**: Output Excel file containing the scraped UK Prime Ministers' data with duplicates included. 
+- **`uk_prime_ministers_deduplicated.xlsx`**: Output Excel file containing the scraped UK Prime Ministers' data without duplicates.
 
 ## How to Run the Code:
 
