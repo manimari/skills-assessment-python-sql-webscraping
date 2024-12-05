@@ -46,7 +46,7 @@ This repository contains solutions to a skills assessment test involving Python,
 - **`Exercise1.py`**: Solution to find duplicate numbers in a list.
 - **`Exercise2.py`**: Solution for reading student grades from a file and calculating the average.
 - **`Exercise3.sql`**: SQL queries for data retrieval, modification, and schema alteration in a sales database.
-- **`Exercise3_Schema_and_SampleData.sql`**: SQL schema and sample data for the sales database.
+- **`Exercise3_Schema_and_SampleData.sql`**: SQL schema and sample data for the sales database (for Exercise 3).
 - **`Exercise6.py`**: Web scraping solution to extract UK Prime Ministers' data.
 - **`grades.txt`**: Input file containing student names and grades (for Exercise 2).
 - **`uk_prime_ministers.xlsx`**: Output Excel file containing the scraped UK Prime Ministers' data.
