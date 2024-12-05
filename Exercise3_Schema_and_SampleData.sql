@@ -53,14 +53,14 @@ VALUES
 
 INSERT INTO OrderItems (order_item_id, order_id, product_id, quantity, price)
 VALUES
-    (1, 1, 101, 2, 50.0), -- OrderItem for John Doe, Widget A
-    (2, 1, 103, 3, 80.0), -- OrderItem for John Doe, Widget B
-    (3, 2, 102, 1, 100.0), -- OrderItem for John Doe, Widget B
-    (4, 3, 101, 4, 50.0), -- OrderItem for Alice Brown, Widget A
-    (5, 4, 102, 2, 100.0), -- OrderItem for Bob White, Widget B
-    (6, 5, 101, 5, 50.0), -- OrderItem for Charlie Green, Widget A
-    (7, 6, 103, 3, 80.0), -- OrderItem for David Black, Widget B
-    (8, 7, 101, 6, 50.0); -- OrderItem for David Black, Widget A
+    (1, 1, 101, 2, 50.0), 
+    (2, 1, 103, 3, 80.0), 
+    (3, 2, 102, 1, 100.0), 
+    (4, 3, 101, 4, 50.0), 
+    (5, 4, 102, 2, 100.0), 
+    (6, 5, 101, 5, 50.0), 
+    (7, 6, 103, 3, 80.0), 
+    (8, 7, 101, 6, 50.0); 
 
 INSERT INTO Products (product_id, name, description, price)
 VALUES
