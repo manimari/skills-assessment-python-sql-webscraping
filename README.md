@@ -34,17 +34,13 @@ This repository contains solutions to a skills assessment test involving Python,
    - Add a new `category` column to the `Products` table.
    - Explanation of indexing for key columns in the `Customers` and `Products` tables.
 
-#### Exercise 3 - Schema and Sample Data
-- **File:** `Exercise3_Schema_and_SampleData.sql`
-- **Description:** Contains SQL statements to create the database schema and insert sample data into the `Customers`, `Orders`, `OrderItems`, and `Products` tables.
-
 ### Section 3: Web Scraping
 
 #### Exercise 6: Web Scraping UK Prime Ministers
 - **File:** `Exercise6.py`
 - **Description:** A Python program using `requests`, `BeautifulSoup`, and `pandas` to scrape a list of UK Prime Ministers, their birthdates, and political affiliations from the Britannica website.
 - **Output:** The data is saved in an Excel file (`uk_prime_ministers.xlsx`). 
-- **Note:** Some entries in the "Date of Birth" column on the source website include only the year (e.g., "1696") or an incomplete date with uncertainty (e.g., "1673?"). These entries were left blank in the Excel file because they could not be transformed into the required date format (dd-mm-yyyy). This ensures data consistency and avoids misleading transformations.
+- **Note:** Some entries in the "Date of Birth" column on the source website include only the year (e.g., "1696") or an incomplete date with uncertainty (e.g., "1673?"). These entries were left blank in the Excel file because they could not be transformed into the required date format (dd.mm.yyyy). This ensures data consistency and avoids misleading transformations.
 
 ### Files in the Repository:
 - **`Exercise1.py`**: Solution to find duplicate numbers in a list.
